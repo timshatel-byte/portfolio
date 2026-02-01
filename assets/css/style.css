@@ -31,6 +31,21 @@ nav a {
   color: white;
   border-radius: 5px;
 }
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  main section {
+    margin: 15px;
+  }
+}
 
 nav a:hover {
   background-color: rgb(232, 174, 243);
